@@ -1,0 +1,20 @@
+{
+  "name": "jsannuaire",
+  "description": "annuaire développé en JS",
+  "main": "index.html",
+  "authors": [
+    "Talabard <david.talabard@modisfrance.fr>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

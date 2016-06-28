@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS</title>
+	<!-- build:css css/main.css -->
+    <link type="text/css" rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- endbuild -->
+</head>
+<body>
+	
+	<button id="contactRefresh" class="btn btn-primary "><span class="glyphicon glyphicon-refresh"></span></button>
+	
+	<div class="table-responsive col-sm-12" >
+		  <table class="table table-bordered" id="contactList">
+		  </table>
+	</div>
+	
+
+	<div id="form"></div>
+
+	<!-- build:js js/script.js -->
+	<script type="text/javascript" src="js/core.js"></script>
+	<script type="text/javascript" src="js/database.js"></script>
+	<script type="text/javascript" src="js/model/contactList.js"></script>
+	<script type="text/javascript" src="js/controller/contactsCtrl.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
